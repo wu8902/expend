@@ -1,0 +1,15 @@
+expend.pro.*
+.qmake.stash
+ui_*.h
+./debug/*
+debug
+release
+./package/debug/*
+./OBJECTFile/*
+package/MOCFile/
+package/release/FileRecv/
+package/OBJECTFile/*
+package/release/log/
+package/install/*.exe
+Makefile.*
+Makefile
