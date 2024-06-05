@@ -2,5 +2,8 @@
     <qresource prefix="/">
         <file>images/arrow_down.svg</file>
         <file>images/arrow_right.svg</file>
+        <file>images/iconfont-shipin.svg</file>
+        <file>images/iconfont-shouji.svg</file>
+        <file>images/iconfont-xingxing.svg</file>
     </qresource>
 </RCC>

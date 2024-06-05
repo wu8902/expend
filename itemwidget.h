@@ -1,4 +1,4 @@
-#ifndef ITEMWIDGET_H
+﻿#ifndef ITEMWIDGET_H
 #define ITEMWIDGET_H
 
 #include <QWidget>
@@ -16,6 +16,16 @@ public:
     ~itemWidget();
 
     void setText(const QString &text);
+
+    void setIcon(const QString &iconPath);
+
+    void setExpend(bool isExpend);
+
+    void setExpendIconVisible(bool isVisble);
+
+protected:
+
+    virtual void mousePressEvent(QMouseEvent *event) override;
 
 signals:
 

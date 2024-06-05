@@ -18,11 +18,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     itemwidget.cpp \
     main.cpp \
-    widget.cpp
+    widget.cpp \
+    widgetmanage.cpp
 
 HEADERS += \
     itemwidget.h \
-    widget.h
+    widget.h \
+    widgetmanage.h
 
 FORMS += \
     itemwidget.ui \

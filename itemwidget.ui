@@ -18,7 +18,7 @@
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout">
    <item>
-    <widget class="QLabel" name="label">
+    <widget class="QPushButton" name="iconButton">
      <property name="maximumSize">
       <size>
        <width>16</width>
@@ -26,8 +26,8 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">
-	</string>
+      <string notr="true">background:transparent;
+border:none;</string>
      </property>
      <property name="text">
       <string/>
@@ -37,8 +37,15 @@
    <item alignment="Qt::AlignLeft">
     <widget class="QPushButton" name="pushButton">
      <property name="styleSheet">
-      <string notr="true">border:none;
-background:transparent;</string>
+      <string notr="true">QPushButton{
+	border:none;
+	background:transparent;
+	color:rgba(0,0,0,0.85);
+}
+
+QPushButton:disable{
+	color:rgba(0,0,0,0.10);
+}</string>
      </property>
      <property name="text">
       <string>导航一</string>
@@ -54,15 +61,22 @@ background:transparent;</string>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">border:none;
-background:transparent;</string>
+      <string notr="true">QPushButton{
+	border:none;
+	background:transparent;
+}
+
+QPushButton:hover{
+	bcakground:rgba(0, 0, 0, 0.12);
+	padding:-1px;
+}</string>
      </property>
      <property name="text">
       <string/>
      </property>
      <property name="icon">
       <iconset resource="image.qrc">
-       <normaloff>:/images/arrow_down.svg</normaloff>:/images/arrow_down.svg</iconset>
+       <normaloff>:/images/arrow_right.svg</normaloff>:/images/arrow_right.svg</iconset>
      </property>
      <property name="checkable">
       <bool>false</bool>
